@@ -2,20 +2,21 @@
 Develop a C# program to get the values from the user using structure and store it in a file in a specific path using file stream concept
 # AIM:
 To develop a C# program using file streams.
-#ALGORITHM:
-####Interface Definition:
+
+# ALGORITHM:
+#### Interface Definition:
           Define an interface named FileManipulation with two abstract methods: ReadFile and WriteToFile.
-####Class Implementation:
+#### Class Implementation:
           Create a class named FileManager that implements the FileManipulation interface.
-####File Reading Method:
+#### File Reading Method:
           Implement the ReadFile method in the FileManager class to read content from a specified file and display it to the user.
-####File Writing Method:
+#### File Writing Method:
           Implement the WriteToFile method in the FileManager class to accept user input and write it to the specified file using StreamWriter.
-####Constructor Initialization:
+#### Constructor Initialization:
           In the constructor of the FileManager class, prompt the user for the file name and the operation choice (read or write).
-####Operation Execution:
+#### Operation Execution:
           Based on the user's choice, either invoke the ReadFile or WriteToFile method to perform the corresponding file manipulation operation.
-####Main Method Execution:
+#### Main Method Execution:
           In the Main method, create an instance of the FileManager class to initiate the file manipulation operations.
 ## PROGRAM :
 
